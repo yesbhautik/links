@@ -8,7 +8,7 @@ export default function Home() {
     excerpt: "home",
     slug: "/",
     coverImage:
-      "https://pub-f858c7e521464395920779af297fb1bd.r2.dev/Website%20Preview.png",
+      "https://pub-f858c7e521464395920779af297fb1bd.r2.dev/Website-Preview.png",
   };
   return (
     <>

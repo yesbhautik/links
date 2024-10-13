@@ -12,7 +12,7 @@ export default {
       {
         width: 1200,
         height: 630,
-        url: `https://pub-f858c7e521464395920779af297fb1bd.r2.dev/Website%20Preview.png`,
+        url: `https://pub-f858c7e521464395920779af297fb1bd.r2.dev/Website-Preview.png`,
       },
     ],
     site_name: "Links @ YESBHAUTIK",
