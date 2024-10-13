@@ -1,166 +1,176 @@
 // date 29-Jul, 2022
 const webLinks = [
-    // All social profile
-    {
-        title: 'Twitter',
-        url: 'https://twitter.com/realvjy',
-        type: 'social',
-        icon: '/twitter.svg',
-        on: true
-    },
-    {
-        title: 'Instagram',
-        url: 'https://instagram.com/realvjy',
-        type: 'social',
-        icon: '/insta.svg',
-        on: true
-    },
-    {
-        title: 'Dribbble',
-        url: 'https://dribbble.com/realvjy',
-        type: 'social',
-        icon: '/dribbble.svg',
-        on: false
-    },
-    {
-        title: 'Medium',
-        url: 'https://medium.com/@realvjy',
-        type: 'social',
-        icon: '/medium.svg',
-        on: false
-    },
-    {
-        title: 'Github',
-        url: 'https://github.com/realvjy',
-        type: 'social',
-        icon: '/github.svg',
-        on: true
-    },
-    {
-        title: 'Youtube',
-        url: 'https://youtube.com/realvjy',
-        type: 'social',
-        icon: '/youtube.svg',
-        on: false
-    },
-    {
-        title: 'Figma',
-        url: 'https://figma.com/@realvjy',
-        type: 'social',
-        icon: '/figma.svg',
-        on: true
-    },
-    {
-        title: 'Behance',
-        url: 'https://behance.net/realvjy',
-        type: 'social',
-        icon: '/behance.svg',
-        on: false
-    },
-    {
-        title: 'Linkedin',
-        url: 'https://www.linkedin.com/in/realvjy/',
-        type: 'social',
-        icon: '/linkedin.svg',
-        on: false
-    },
-    {
-        title: 'Mastodon',
-        url: 'https://mastodon.online/@realvjy',
-        type: 'social',
-        icon: '/mastodon.svg',
-        on: true
-    },
-    {
-        title: 'Hive Social',
-        url: 'https://www.hivesocial.app/?@realvjy',
-        type: 'social',
-        icon: '/hive.svg',
-        on: false
-    },
-    {
-        title: 'Post',
-        url: 'https://www.post.news/realvjy',
-        type: 'social',
-        icon: '/post.svg',
-        on: false
-    },
-    {
-        title: 'foundation',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/foundation.svg',
-        on: false
-    },
-    {
-        title: 'opensea',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/opensea.svg',
-        on: false
-    },
-    {
-        title: 'new collection',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/opensea.svg',
-        on: false
-    },
-    // Install section
-    {
-        title: 'Use this template',
-        url: 'https://github.com/realvjy/nxt-lnk/generate',
-        type: 'install',
-        icon: '/use.png',
-        on: true
-    },
-    {
-        title: 'Deploy on Vercel',
-        url: 'https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk',
-        type: 'install',
-        icon: '/vercel.svg',
-        on: true
-    },
-    {
-        title: 'Documentation',
-        url: 'https://github.com/realvjy/nxt-lnk#nxt-lnk',
-        type: 'install',
-        icon: '/doc.png',
-        on: true
-    },
-    {
-        title: 'Github',
-        url: 'https://github.com/realvjy/nxt-lnk',
-        type: 'install',
-        icon: '/github-fill.svg',
-        on: true
-    },
+  // All social profile
+  {
+    title: "Linkedin",
+    url: "https://www.linkedin.com/in/yesbhautik/",
+    type: "social",
+    icon: "/linkedin.svg",
+    on: true,
+  },
+  {
+    title: "Github",
+    url: "https://github.com/yesbhautik",
+    type: "social",
+    icon: "/github.svg",
+    on: true,
+  },
+  {
+    title: "Twitter",
+    url: "https://twitter.com/yesbhautik",
+    type: "social",
+    icon: "/twitter.svg",
+    on: true,
+  },
+  {
+    title: "Instagram",
+    url: "https://www.instagram.com/yesbhautik",
+    type: "social",
+    icon: "/insta.svg",
+    on: true,
+  },
+  {
+    title: "Dribbble",
+    url: "https://dribbble.com/yesbhautik",
+    type: "social",
+    icon: "/dribbble.svg",
+    on: false,
+  },
+  {
+    title: "Medium",
+    url: "https://medium.com/@yesbhautik",
+    type: "social",
+    icon: "/medium.svg",
+    on: false,
+  },
 
-    {
-        title: 'Buy Me a Coffee',
-        url: 'https://www.buymeacoffee.com/realvjy',
-        type: 'other',
-        icon: '/bmc.png',
-        on: true
-    },
+  {
+    title: "Youtube",
+    url: "https://youtube.com/@yesbhautik",
+    type: "social",
+    icon: "/youtube.svg",
+    on: true,
+  },
 
-    {
-        title: 'link demo',
-        url: 'https://vjy.me/lnk',
-        type: 'other',
-        icon: '/vjy.png',
-        on: true
-    },
+  {
+    title: "Behance",
+    url: "https://behance.net/yesbhautik",
+    type: "social",
+    icon: "/behance.svg",
+    on: false,
+  },
 
-    {
-        title: 'maker website',
-        url: 'https://vjy.me',
-        type: 'other',
-        icon: '/vjy.png',
-        on: true
-    },
+  {
+    title: "Mastodon",
+    url: "https://mastodon.online/@yesbhautik",
+    type: "social",
+    icon: "/mastodon.svg",
+    on: false,
+  },
+  {
+    title: "Hive Social",
+    url: "https://www.hivesocial.app/?@yesbhautik",
+    type: "social",
+    icon: "/hive.svg",
+    on: false,
+  },
+  {
+    title: "Post",
+    url: "https://www.post.news/yesbhautik",
+    type: "social",
+    icon: "/post.svg",
+    on: false,
+  },
+  {
+    title: "foundation",
+    url: "https://yesbhautik.co.in",
+    type: "nft",
+    icon: "/foundation.svg",
+    on: false,
+  },
+  {
+    title: "opensea",
+    url: "https://yesbhautik.co.in",
+    type: "nft",
+    icon: "/opensea.svg",
+    on: false,
+  },
+  {
+    title: "new collection",
+    url: "https://yesbhautik.co.in",
+    type: "nft",
+    icon: "/opensea.svg",
+    on: false,
+  },
+
+  // YesbhautikX section
+  {
+    title: "YesbhautikX Website",
+    url: "https://yesbhautikx.co.in/",
+    type: "YesbhautikX",
+    icon: "/web.svg",
+    on: true,
+  },
+  {
+    title: "FlavorGPT Platform",
+    url: "https://flavorgpt.yesbhautikx.co.in/",
+    type: "YesbhautikX",
+    icon: "/BW - Black.png",
+    on: true,
+  },
+  {
+    title: "FlavorGPT Website",
+    url: "https://flavor-ai.tech/",
+    type: "YesbhautikX",
+    icon: "/BW - Black.png",
+    on: true,
+  },
+  {
+    title: "Our Services",
+    url: "https://yesbhautikx.co.in/our-services/",
+    type: "YesbhautikX",
+    icon: "/services.png",
+    on: true,
+  },
+  {
+    title: "Work Studio ✦ Portfolio",
+    url: "https://works.yesbhautikx.co.in/",
+    type: "YesbhautikX",
+    icon: "/works.png",
+    on: true,
+  },
+
+  // Other Section
+  {
+    title: "BHAUTIK's Website",
+    url: "https://yesbhautik.co.in",
+    type: "other",
+    icon: "/showtime.svg",
+    on: true,
+  },
+  {
+    title: "Touch with us",
+    url: "https://yesbhautikx.co.in/contact-us/",
+    type: "other",
+    icon: "/growth.png",
+    on: true,
+  },
+
+  {
+    title: "Career",
+    url: "https://yesbhautikx.co.in/career",
+    type: "other",
+    icon: "/carrer.png",
+    on: true,
+  },
+
+  {
+    title: "Donate OpenSourse",
+    url: "https://razorpay.me/@yesbhautikx",
+    type: "other",
+    icon: "/usd.png",
+    on: true,
+  },
 ];
 
 export default webLinks;
-
-

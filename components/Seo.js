@@ -25,11 +25,11 @@ export default function Seo({ page }) {
                             alt: `${title}`,
                         },
                     ],
-                    site_name: 'vjy.me',
+                    site_name: 'yesbhautik.co.in',
                 }}
                 twitter={{
-                    handle: '@realvjy',
-                    site: 'vjy.me',
+                    handle: '@yesbhautik',
+                    site: 'yesbhautik.co.in',
                     cardType: 'summary_large_image',
                 }}
                 additionalMetaTags={[{

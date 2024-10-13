@@ -1,24 +1,25 @@
 export default {
-    openGraph: {
-        type: 'website',
-        locale: 'en_IE',
-        title: 'next lnks by realvjy',
-        url: 'https://vjy.me',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
-        locale: 'en_EN',
-        keywords: 'designer, product designer, illustrator, indian designer, vijay verma, realvjy, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, vijay realvjy, indian ui designer, design india, overlayz, nft art',
-        images: [
-            {
-                width: 1200,
-                height: 630,
-                url: `https://vjy.me/preview.jpg`,
-            },
-        ],
-        site_name: 'realvjy',
-    },
-    twitter: {
-        handle: '@realvjy',
-        site: 'vjy.me',
-        cardType: 'summary_large_image',
-    },
+  openGraph: {
+    type: "website",
+    locale: "en_IE",
+    title: "Links by YesbhautikX",
+    url: "https://yesbhautikx.co.in/",
+    description: "Custom bio links for creatives who love coding.",
+    locale: "en_EN",
+    keywords:
+      "web designer, developer, full stack developer, ai bot, chatbot, cloud, website development, SEO service, outsourcing, consultancy, tech audit,designer, product designer, illustrator, indian designer, Bhautik Bavadiya, yesbhautik, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, blockchain, indian ui designer, design india, YesbhautikX, nft art",
+    images: [
+      {
+        width: 1200,
+        height: 630,
+        url: `https://pub-f858c7e521464395920779af297fb1bd.r2.dev/Website%20Preview.png`,
+      },
+    ],
+    site_name: "Links @ YESBHAUTIK",
+  },
+  twitter: {
+    handle: "@yesbhautik",
+    site: "yesbhautik.co.in",
+    cardType: "summary_large_image",
+  },
 };
