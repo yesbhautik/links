@@ -165,7 +165,7 @@ const webLinks = [
   },
 
   {
-    title: "Donate OpenSourse",
+    title: "Donate OpenSource",
     url: "https://razorpay.me/@yesbhautikx",
     type: "other",
     icon: "/usd.png",
