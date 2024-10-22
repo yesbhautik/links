@@ -140,6 +140,13 @@ const webLinks = [
     icon: "/works.png",
     on: true,
   },
+  {
+    title: "Uptime Status",
+    url: "https://status.yesbhautik.co.in/",
+    type: "YesbhautikX",
+    icon: "/pulse.png",
+    on: true,
+  },
 
   // Other Section
   {
