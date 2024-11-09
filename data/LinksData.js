@@ -141,13 +141,12 @@ const webLinks = [
     on: true,
   },
   {
-    title: "Uptime Status",
-    url: "https://status.yesbhautik.co.in/",
+    title: "Schedule call",
+    url: "https://topmate.io/yesbhautik/",
     type: "YesbhautikX",
-    icon: "/pulse.png",
+    icon: "/schedule.png",
     on: true,
   },
-
   // Other Section
   {
     title: "BHAUTIK's Website",
@@ -163,20 +162,25 @@ const webLinks = [
     icon: "/growth.png",
     on: true,
   },
-
   {
-    title: "Career",
+    title: "Careers",
     url: "https://yesbhautikx.co.in/career",
     type: "other",
     icon: "/carrer.png",
     on: true,
   },
-
   {
     title: "Donate OpenSource",
     url: "https://razorpay.me/@yesbhautikx",
     type: "other",
     icon: "/usd.png",
+    on: true,
+  },
+  {
+    title: "Uptime Status",
+    url: "https://status.yesbhautik.co.in/",
+    type: "other",
+    icon: "/pulseW.png",
     on: true,
   },
 ];
