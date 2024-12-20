@@ -2,7 +2,7 @@
 const bioData = [
   {
     name: "links",
-    username: "yesbhautik",
+    username: "Bhautik Bavadiya",
     url: "https://links.yesbhautik.co.in",
     titleImg: true,
     avatar: "/avatar.png",
@@ -10,8 +10,8 @@ const bioData = [
     description: [
       "Founder @ YesbhautikX ✦ ",
       "IT Professional ✦ ",
-      "Cloud Engineer ✦ ",
-      "Business Development at @StrawHatLabs",
+      "Technopreneur ✦ ",
+      "BD at @StrawHatLabs",
     ],
     descShow: true,
     subdesc: "Currently building @FlavorGPT",

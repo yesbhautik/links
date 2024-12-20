@@ -1,11 +1,11 @@
 export default {
   openGraph: {
     type: "website",
-    locale: "en_IE",
-    title: "Links • YesbhautikX",
-    url: "https://yesbhautikx.co.in/",
+    locale: "en_IN",
+    title: "Links • YESBHAUTIK",
+    url: "https://yesbhautik.co.in/",
     description:
-      "Custom bio links for creatives zz's who love coding 💙 YesbhautikX",
+      "Bhautik Bavadiya (yesbhautik) custom link-tree ✦ Custom bio links for creatives zz's who love coding 💙 YesbhautikX",
     locale: "en_EN",
     keywords:
       "web designer, developer, full stack developer, ai bot, chatbot, cloud, website development, SEO service, outsourcing, consultancy, tech audit,designer, product designer, illustrator, indian designer, Bhautik Bavadiya, yesbhautik, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, blockchain, indian ui designer, design india, YesbhautikX, nft art",
