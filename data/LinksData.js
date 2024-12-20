@@ -23,32 +23,18 @@ const webLinks = [
     on: true,
   },
   {
-    title: "WhatsApp",
-    url: "https://wa.me/916353586391",
+    title: "Telegram",
+    url: "https://t.me/yesbhautik",
     type: "social",
-    icon: "/whatsapp.svg",
+    icon: "/telegram.svg",
     on: true,
   },
   {
-    title: "Instagram",
-    url: "https://www.instagram.com/yesbhautik",
+    title: "Matrix",
+    url: "https://matrix.to/#/@yesbhautik:beeper.com",
     type: "social",
-    icon: "/insta.svg",
+    icon: "/matrix.svg",
     on: true,
-  },
-  {
-    title: "Dribbble",
-    url: "https://dribbble.com/yesbhautik",
-    type: "social",
-    icon: "/dribbble.svg",
-    on: false,
-  },
-  {
-    title: "Medium",
-    url: "https://medium.com/@yesbhautik",
-    type: "social",
-    icon: "/medium.svg",
-    on: false,
   },
 
   {
@@ -56,7 +42,7 @@ const webLinks = [
     url: "https://youtube.com/@yesbhautik",
     type: "social",
     icon: "/youtube.svg",
-    on: true,
+    on: false,
   },
 
   {
@@ -97,11 +83,25 @@ const webLinks = [
     on: false,
   },
   {
-    title: "new collection",
+    title: "Discord",
     url: "https://yesbhautik.co.in",
-    type: "nft",
-    icon: "/opensea.svg",
+    type: "social",
+    icon: "/discord.svg",
     on: false,
+  },
+  {
+    title: "WhatsApp",
+    url: "https://wa.me/916353586391",
+    type: "social",
+    icon: "/whatsapp.svg",
+    on: true,
+  },
+  {
+    title: "Instagram",
+    url: "https://www.instagram.com/yesbhautik",
+    type: "social",
+    icon: "/insta.svg",
+    on: true,
   },
 
   // YesbhautikX section
