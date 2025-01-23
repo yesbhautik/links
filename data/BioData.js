@@ -8,10 +8,10 @@ const bioData = [
     avatar: "/avatar.png",
     nftAvatar: false,
     description: [
-      "Founder @ YesbhautikX ✦ ",
+      "Founder ᯅ YesbhautikX ✦ ",
       "IT Professional ✦ ",
       "Technopreneur ✦ ",
-      "BD at @StrawHatLabs",
+      "BD",
     ],
     descShow: true,
     subdesc: "Currently building @FlavorGPT",
