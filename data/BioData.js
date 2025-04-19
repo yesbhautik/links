@@ -18,8 +18,8 @@ const bioData = [
     subdescShow: true,
     newProductUrl: "https://flavor-ai.tech/",
     newProduct: true,
-    author: "YesbhautikX",
-    authorURL: "https://yesbhautikx.co.in",
+    author: "Bhautik Bavadiya, AKA Yesbhautik",
+    authorURL: "https://yesbhautik.co.in",
     footerText: "💙",
   },
 ];
