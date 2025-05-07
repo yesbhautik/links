@@ -49,9 +49,9 @@ const Links = () => {
     return el.type === "social" && el.on;
   });
 
-  // Get data for YesbhautikX section
-  const YesbhautikX = allLinks.filter((el) => {
-    return el.type === "YesbhautikX" && el.on;
+  // Get data for YBX Labs section
+  const YBXLabs = allLinks.filter((el) => {
+    return el.type === "YBXLabs" && el.on;
   });
 
   // Get data for nfts
@@ -127,11 +127,11 @@ const Links = () => {
             </LinkSection>
             {/* Social Icon */}
 
-            {/* YesbhautikX Section */}
-            {YesbhautikX.length > 0 ? (
+            {/* YBX Labs Section */}
+            {YBXLabs.length > 0 ? (
               <LinkSection>
-                <h3>{YesbhautikX[0].type}</h3>
-                {YesbhautikX.map((i) => {
+                <h3>{YBXLabs[0].type}</h3>
+                {YBXLabs.map((i) => {
                   return (
                     <a
                       href={i.url}
@@ -153,7 +153,7 @@ const Links = () => {
             ) : (
               ""
             )}
-            {/* End YesbhautikX Section */}
+            {/* End YBX Labs Section */}
 
             {/* NFT Section */}
             {nfts.length > 0 ? (

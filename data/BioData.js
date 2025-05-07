@@ -8,10 +8,9 @@ const bioData = [
     avatar: "/avatar.png",
     nftAvatar: false,
     description: [
-      "Founder ᯅ YBX Labs (ex YesbhautikX) ✦ ",
-      "IT Professional ✦ ",
-      "Technopreneur ✦ ",
-      "BD",
+      "Founder ᯅ YBX Labs (ex YesbhautikX) & Quantum Nous (量子智元) ✦ ",
+      "AI asset management ✦ ",
+      "🚀 Technopreneur",
     ],
     descShow: true,
     subdesc: "Currently building @FlavorGPT",
