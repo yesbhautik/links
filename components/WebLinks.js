@@ -429,6 +429,7 @@ const LinkSection = styled.div`
   margin: 0 auto;
   max-width: 400px;
   flex-direction: column;
+  transform: translateZ(0); /* Force GPU acceleration */
   &.social {
     max-width: max-content;
     padding: 0;
@@ -437,6 +438,7 @@ const LinkSection = styled.div`
   .iconsonly {
     display: flex;
     justify-content: center;
+    transform: translateZ(0); /* Force GPU acceleration */
     @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
       flex-wrap: wrap;
     }
@@ -468,6 +470,9 @@ const LinkBox = styled.div`
   letter-spacing: -0.5px;
   position: relative;
   text-align: center;
+  transform: translateZ(0); /* Force GPU acceleration */
+  backface-visibility: hidden; /* Reduce paint operations */
+  perspective: 1000; /* Improve 3D rendering performance */
 
   &::before {
     content: "";
@@ -478,6 +483,7 @@ const LinkBox = styled.div`
     inset: -2px;
     opacity: 0;
     transform: scale(0.8);
+    will-change: transform, opacity; /* Optimize animations */
   }
   &:hover {
     transition: all 333ms ease 0s;
@@ -501,6 +507,7 @@ const LinkBox = styled.div`
     margin: 4px;
     img {
       height: 24px;
+      transform: translateZ(0); /* Force GPU acceleration */
     }
 
     @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
@@ -514,6 +521,7 @@ const LinkBox = styled.div`
   @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
     padding: 12px 16px;
     font-size: 16px;
+    transform: translateZ(0); /* Force GPU acceleration */
   }
 `;
 const LinkTitle = styled.div`

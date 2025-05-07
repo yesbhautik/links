@@ -43,20 +43,29 @@ body.light-mode {
   box-sizing: border-box;
   line-height: normal;
   transition: all .1s ease;
-  
-  
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
+  -webkit-touch-callout: none; /* Disable callout to copy image */
+  -webkit-user-select: none; /* Disable selection */
+  user-select: none;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+  overscroll-behavior-y: none; /* Prevent overscroll bounce */
 }
+
 body {
   font-family: 'Inter', sans-serif;
   background: ${({ theme }) => theme.bg.primary};
   color: ${({ theme }) => theme.text.primary};
   text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  will-change: transform; /* Add hardware acceleration */
 }
 
 a{
