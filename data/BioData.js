@@ -8,7 +8,7 @@ const bioData = [
     avatar: "/avatar.png",
     nftAvatar: false,
     description: [
-      "Founder ᯅ YBX Labs (ex YesbhautikX) & Quantum Nous (量子智元) ✦ ",
+      "Founder ᯅ YBX Labs (ex YesbhautikX) ✦ ",
       "AI asset management ✦ ",
       "🚀 Technopreneur",
     ],
