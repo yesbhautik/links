@@ -164,7 +164,7 @@ const webLinks = [
   },
   {
     title: "Careers",
-    url: "https://yesbhautikx.co.in/career",
+    url: "https://submits.ybxlabs.com/form/67kPxjhr",
     type: "other",
     icon: "/carrer.png",
     on: true,
