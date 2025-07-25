@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 import ReactDOM from 'react-dom';
 
-
-
 export default function Layout({ children }) {
     return (
         <Main >

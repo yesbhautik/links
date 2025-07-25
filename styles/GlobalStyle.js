@@ -1,16 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-body.dark-mode {
-  --img: invert(1);
-  --avatar-shadow: rgba(28,22,47,.3);
-}
-
-body.light-mode {
-  --img: invert(0);
-  --avatar-shadow: rgba(48,52,77,.1);
-} 
-
 * {
   --bg-light-yellow: #F2F2EE;
   --bg-light-blue: #EDF2FF;
@@ -35,6 +25,10 @@ body.light-mode {
   --light-black: rgba(0,0,0,.05);
   --light-white: rgba(255,255,255,.03);
   
+  /* Set img filter for dark theme */
+  --img: invert(1);
+  --avatar-shadow: rgba(28,22,47,.3);
+  
   margin: 0;
   padding: 0;
   border: 0;
@@ -43,20 +37,18 @@ body.light-mode {
   box-sizing: border-box;
   line-height: normal;
   transition: all .1s ease;
-  
-  
 }
 
 html{
     scroll-behavior: smooth;
 }
+
 body {
   font-family: 'Inter', sans-serif;
   background: ${({ theme }) => theme.bg.primary};
   color: ${({ theme }) => theme.text.primary};
   text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-
+  -webkit-font-smoothing: antialiased;
 }
 
 a{
@@ -65,19 +57,19 @@ a{
 
 .main{
     min-height: 100vh;
-    
 }
+
 .toast-container {
   border-radius: 12px;
   font-size: 14px;
   font-weight: 600;
 }
+
 .container{
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  
 }
 
 .nft-clipped{
@@ -95,8 +87,6 @@ a{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-   
 `;
 
 export default GlobalStyle;
