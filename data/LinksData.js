@@ -157,7 +157,7 @@ const webLinks = [
   },
   {
     title: "Touch with us",
-    url: "https://yesbhautikx.co.in/contact-us/",
+    url: "https://submits.ybxlabs.com/form/nkD7UE79",
     type: "other",
     icon: "/growth.png",
     on: true,
