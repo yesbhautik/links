@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    /* Mobile scrolling optimizations moved to GlobalStyle.js for consistency */
 }
 
 body {
@@ -7,4 +8,6 @@ body {
     padding: 0;
     background-color: #000000;
     color: #ffffff;
+    /* Additional mobile optimizations */
+    overflow-x: hidden;
 }
