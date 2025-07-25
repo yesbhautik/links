@@ -16,10 +16,10 @@ const webLinks = [
     on: true,
   },
   {
-    title: "Twitter",
-    url: "https://twitter.com/yesbhautik",
+    title: "X",
+    url: "https://x.com/yesbhautik",
     type: "social",
-    icon: "/twitter.svg",
+    icon: "/x.svg",
     on: true,
   },
   {
@@ -121,23 +121,16 @@ const webLinks = [
   },
   {
     title: "FlavorGPT Info",
-    url: "https://flavor-ai.tech/",
+    url: "https://flavorgpt.ybxlabs.com/",
     type: "YBXLabs",
     icon: "/BW - Black.png",
     on: true,
   },
   {
     title: "Our Services",
-    url: "https://yesbhautikx.co.in/our-services/",
+    url: "https://ybxlabs.com/",
     type: "YBXLabs",
     icon: "/services.png",
-    on: true,
-  },
-  {
-    title: "Work Studio ✦ Portfolio",
-    url: "https://works.yesbhautikx.co.in/",
-    type: "YBXLabs",
-    icon: "/works.png",
     on: true,
   },
   {
@@ -149,7 +142,7 @@ const webLinks = [
   },
   // Other Section
   {
-    title: "BHAUTIK's Website",
+    title: "Bhautik's Website",
     url: "https://yesbhautik.co.in",
     type: "other",
     icon: "/showtime.svg",
@@ -171,7 +164,7 @@ const webLinks = [
   },
   {
     title: "Donate OpenSource",
-    url: "https://razorpay.me/@yesbhautikx",
+    url: "https://ybxlabs.com/payment",
     type: "other",
     icon: "/usd.png",
     on: true,

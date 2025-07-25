@@ -345,14 +345,14 @@ const LinkBio = styled.div`
   display: flex;
   flex-direction: column;
   h1 {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 28px;
     font-weight: 500;
     letter-spacing: -0.6px;
     padding: 0 20px;
     @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
-      font-size: 18px;
-      line-height: 26px;
+      font-size: 16px;
+      line-height: 24px;
       padding: 0 8px;
     }
     vertical-align: middle;
