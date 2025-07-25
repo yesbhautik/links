@@ -36,11 +36,20 @@ const GlobalStyle = createGlobalStyle`
   text-decoration: none;
   box-sizing: border-box;
   line-height: normal;
-  transition: all .1s ease;
+  /* Optimize transitions to not interfere with scrolling */
+  transition: color .1s ease, background-color .1s ease, border-color .1s ease, opacity .1s ease;
 }
 
 html{
     scroll-behavior: smooth;
+    /* Mobile scrolling optimizations */
+    -webkit-overflow-scrolling: touch;
+    touch-action: manipulation;
+    overscroll-behavior: contain;
+    /* Improve text rendering on mobile */
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -49,6 +58,16 @@ body {
   color: ${({ theme }) => theme.text.primary};
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Mobile scrolling optimizations */
+  -webkit-overflow-scrolling: touch;
+  touch-action: manipulation;
+  overscroll-behavior: contain;
+  /* Prevent horizontal scrolling issues on mobile */
+  overflow-x: hidden;
+  /* Improve performance on mobile */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 a{

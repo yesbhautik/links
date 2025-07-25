@@ -11,11 +11,20 @@ export default function Layout({ children }) {
 
 const Main = styled.main`
   min-height: 100vh;
-  background: url("/header-gradient.svg") no-repeat top center, url("/footer-gradient.svg") no-repeat bottom center; /* Top and bottom backgrounds */
-  background-size: 100%, auto; /* Top background covers full width, bottom background auto */
-  background-attachment: fixed;
+  background: url("/header-gradient.svg") no-repeat top center, url("/footer-gradient.svg") no-repeat bottom center;
+  background-size: 100%, auto;
+  /* Remove fixed attachment that causes mobile scrolling issues */
+  background-attachment: scroll;
+  /* Improve performance with hardware acceleration */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: auto;
+  
   @media screen and (max-width: ${({ theme }) => theme.deviceSize.tablet}) {
-    background-size: 250%, auto; /* Adjusts size for smaller screens */
-    background-position: top center, bottom center; /* Centered at the top and bottom for smaller screens */
+    background-size: 250%, auto;
+    background-position: top center, bottom center;
+    /* Additional mobile optimizations */
+    -webkit-overflow-scrolling: touch;
+    touch-action: manipulation;
   }
 `;
